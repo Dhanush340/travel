@@ -12,7 +12,7 @@ const data = [
     {
         id: 2,
         coverImg: "sigiriya.jfif",
-        placeUrl: "",
+        placeUrl: "https://goo.gl/maps/4DUD9PQSn95ttcdF9",
         placeName: "SRI LANKA",
         location: "Sigiriya",
         date: "24 Dec, 2022 - 25 Dec, 2022",
@@ -22,7 +22,7 @@ const data = [
     {
         id: 3,
         coverImg: "swiss.jfif",
-        placeUrl: "",
+        placeUrl: "https://goo.gl/maps/6Jp2mVomX5HZFRL17",
         placeName: "SWITZERLAND",
         location: "Lucerne",
         date: "05 Jan, 2023 - 20 Jan, 2023",
