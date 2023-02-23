@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
+nav {
+  /*position: absolute;*/
+  /* width: 550px;*/
+
+  display: flex;
+  align-items: center;
+  /*padding: 30px 25px;*/
+  height: 50px;
+  color: #FFFFFF;
+
+  margin-bottom: 30px;
+
+  background: #F55A5A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav>h2 {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav>img {
+
+
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+
+
+}
+
+.card--left {
+  height: 168px;
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+  margin-top: 2px;
+  width: 350px;
+  padding: 0px;
+}
+
+.card--map {
+  width: 10px;
+  height: 14px;
+  padding: auto;
+}
+
+.place--name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  padding: 2px;
+  margin-top: 0px;
+}
+
+.map--text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  padding-left: 5px;
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.card--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.location {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0px;
+  color: #2B283A;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-bottom: 10px;
+  color: #2B283A;
+}
+
+.discription {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  text-align: justify;
+
+  color: #2B283A;
+}
+
+
+
+
+
+
+
+
+
+/*nav {
+  /*position: absolute;*/
+/* width: 550px;
+
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /*padding: 30px 25px;
+  height: 50px;
+  color: #FFFFFF;
+
+  margin-bottom: 30px;
+
+  background: #F55A5A;
 }
 
-.App-link {
-  color: #61dafb;
+nav>h2 {
+
+
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav>img {
+
+
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+
+
 }
+
+.card {
+  /*width: 175px;
+  height: 168px;
+  font-size: 12px;
+
+  display: block;
+  /* ADD */
+
+/* ADD */
+/* ADD 
+
+  margin-left: 20px;
+
+}
+
+.card--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+
+
+
+.card--stats {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 0px;
+
+
+}
+
+.card--map {
+  width: 10px;
+  height: 14px;
+  padding: auto;
+}
+
+.country--name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  padding: 2px;
+}
+
+.map--text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  /* identical to box height 
+  padding-left: 5px;
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.location {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+
+
+}*/
+
+
+
+/* 
+.col-lg-3 {
+  flex-direction: row;
+}
+
+.horizontal-card {
+  position: relative;
+  display: flex;
+  height: 168px;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+  flex-direction: column;
+
+}
+
+img {
+  border-radius: 5;
+  width: 125px;
+  height: 168px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.horizontal-card .horizontal-card-body {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+
+.horizontal-card .horizontal-card-body .card--map {
+  width: 10px;
+  height: 14px;
+  padding: auto;
+  display: flex;
+}
+
+.country--name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  padding: 2px;
+}
+
+
+.map--text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+/* 
+  /* identical to box height 
+  padding-left: 5px;
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.horizontal-card .horizontal-card-footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-card .horizontal-card-footer span {
+  width: 200px;
+  display: inline-block;
+}
+
+.horizontal-card .horizontal-card-footer a {
+  margin-left: 10px;
+}
+
+.location {
+  flex-direction: row;
+} */
