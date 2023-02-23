@@ -2,6 +2,7 @@ const data = [
     {
         id: 1,
         coverImg: "fiji.jfif",
+        placeUrl: "https://goo.gl/maps/SRh5vgTBKofgpfAb9",
         placeName: "JAPAN",
         location: "Mount Fuji",
         date: "12 Jan, 2021 - 24 Jan, 2021",
@@ -11,6 +12,7 @@ const data = [
     {
         id: 2,
         coverImg: "sigiriya.jfif",
+        placeUrl: "",
         placeName: "SRI LANKA",
         location: "Sigiriya",
         date: "24 Dec, 2022 - 25 Dec, 2022",
@@ -20,6 +22,7 @@ const data = [
     {
         id: 3,
         coverImg: "swiss.jfif",
+        placeUrl: "",
         placeName: "SWITZERLAND",
         location: "Lucerne",
         date: "05 Jan, 2023 - 20 Jan, 2023",

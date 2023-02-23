@@ -24,6 +24,3 @@ function App() {
 }
 
 export default App;
-/* <Card />
-      <Card />
-      <Card /> */
